@@ -18,7 +18,7 @@ defmodule OTPAuth.MixProject do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.34", only: :dev, runtime: false, warn_if_outdated: true}
+      {:ex_doc, "~> 0.40", only: :dev, runtime: false, warn_if_outdated: true}
     ]
   end
 
